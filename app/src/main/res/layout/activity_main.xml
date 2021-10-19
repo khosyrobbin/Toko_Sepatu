@@ -146,6 +146,7 @@
                     </Button>
                 </LinearLayout>
             </LinearLayout>
+            <!--Menu-->
             <LinearLayout
                 android:paddingLeft="15dp"
                 android:orientation="horizontal"
@@ -180,7 +181,7 @@
                         android:textSize="12dp"
                         android:textAlignment="center"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp">
+                        android:layout_height="50dp">
                     </TextView>
                 </LinearLayout>
                 <RelativeLayout
@@ -215,7 +216,7 @@
                         android:textSize="12dp"
                         android:textAlignment="center"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp">
+                        android:layout_height="50dp">
                     </TextView>
                 </LinearLayout>
                 <RelativeLayout
@@ -250,7 +251,7 @@
                         android:textSize="12dp"
                         android:textAlignment="center"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp">
+                        android:layout_height="50dp">
                     </TextView>
                 </LinearLayout>
                 <RelativeLayout
@@ -285,11 +286,340 @@
                         android:textSize="12dp"
                         android:textAlignment="center"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp">
+                        android:layout_height="50dp">
                     </TextView>
                 </LinearLayout>
 
             </LinearLayout>
+            <RelativeLayout
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="10dp">
+            </RelativeLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:background="@drawable/background_khusus"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--tittle swipe-->
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/putih"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:text="Produk Terbaru"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <Button
+                        android:textAllCaps="false"
+                        android:textColor="@color/putih"
+                        android:backgroundTint="@color/colorAccent"
+                        android:text="View All"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Button>
+                </LinearLayout>
+                <HorizontalScrollView
+                    android:paddingLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--card Product-->
+                        <LinearLayout
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:padding="10dp"
+                            android:background="@drawable/card_produk"
+                            android:orientation="vertical"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <ImageView
+                                        android:cropToPadding="false"
+                                        android:adjustViewBounds="true"
+                                        android:src="@drawable/g2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                    </ImageView>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="12dp"
+                                    android:textStyle="bold"
+                                    android:text="NIKE AIR-GREEN"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </TextView>
+                                <TextView
+                                    android:text="Rp. 1.100.000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+                        <!--card Product-->
+                        <LinearLayout
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:padding="10dp"
+                            android:background="@drawable/card_produk"
+                            android:orientation="vertical"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <ImageView
+                                        android:cropToPadding="false"
+                                        android:adjustViewBounds="true"
+                                        android:src="@drawable/g3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                    </ImageView>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="12dp"
+                                    android:textStyle="bold"
+                                    android:text="NIKE AIR-750"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </TextView>
+                                <TextView
+                                    android:text="Rp. 1.400.000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent">
+                        </RelativeLayout>
+                        <!--card Product-->
+                        <LinearLayout
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:clickable="true"
+                            android:padding="10dp"
+                            android:background="@drawable/card_produk"
+                            android:orientation="vertical"
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <ImageView
+                                        android:cropToPadding="false"
+                                        android:adjustViewBounds="true"
+                                        android:src="@drawable/g4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                    </ImageView>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_marginTop="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:textSize="12dp"
+                                    android:textStyle="bold"
+                                    android:text="NIKE AIR-360"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </TextView>
+                                <TextView
+                                    android:text="Rp. 1.500.000"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+<!--            Produk Lainnya-->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Produk Lainnya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <Button
+                    android:textAllCaps="false"
+                    android:textColor="@color/putih"
+                    android:backgroundTint="@color/colorAccent"
+                    android:text="View All"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Button>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Card Product -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:padding="10dp"
+                        android:background="@drawable/card_produk"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <androidx.cardview.widget.CardView
+                                app:cardCornerRadius="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:cropToPadding="false"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/g7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </ImageView>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:text="NIKE AIR-RUN"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                            <TextView
+                                android:text="Rp. 1.100.000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content">
+                </RelativeLayout>
+                <!-- Card Product -->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:padding="10dp"
+                        android:background="@drawable/card_produk"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <androidx.cardview.widget.CardView
+                                app:cardCornerRadius="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:cropToPadding="false"
+                                    android:adjustViewBounds="true"
+                                    android:src="@drawable/g8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                </ImageView>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:text="NIKE AIR-BLUE"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                            <TextView
+                                android:text="Rp. 1.100.000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
     <com.google.android.material.bottomnavigation.BottomNavigationView

@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable-v24/header.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable-v24/splash.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/background_khusus.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/card_button.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/card_menu.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/card_produk.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/header.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/ic_add.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/ic_cari.xml" value="0.19583333333333333" />
@@ -17,7 +19,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/ic_testimoni.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/ic_user.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/drawable/splash.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/TokoSepatu/app/src/main/res/menu/item_bottom_navigasi.xml" value="0.1796875" />
       </map>
     </option>
